@@ -1,0 +1,6 @@
+type,value,context
+lab_ip,192.168.134.129,Suspected source/control host in course capture
+lab_ip,192.168.134.132,Target host APLOVERS-765952
+port,445,SMB transport; not inherently malicious
+port,29922,Source listener receiving target callback
+sha256,1F60D8F0A43129657EA9A3B83DC7649F10DC1EF55A040BE9E9B35D34B7EEDD4F,Recorded hash of stream1_129_to_132.raw; not recomputed
